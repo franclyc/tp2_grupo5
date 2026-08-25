@@ -1,0 +1,5 @@
+package ar.edu.unju.escmi.tp2.ejercicio5;
+
+public class Ejercicio5 {
+    
+}
