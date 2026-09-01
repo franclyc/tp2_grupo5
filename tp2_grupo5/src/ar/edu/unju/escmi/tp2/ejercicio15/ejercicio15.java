@@ -2,7 +2,7 @@ package ar.edu.unju.escmi.tp2.ejercicio15;
 
 import java.util.Scanner;
 
-public class ejercicio15 {
+public class Ejercicio15 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -20,12 +20,16 @@ public class ejercicio15 {
         int[] arreglo = new int[tamanio];
 
         System.out.println("\n--- Carga de elementos ---");
+
         for (int i = 0; i < arreglo.length; i++) {
             System.out.print("Ingrese el número entero para la posición [" + i + "]: ");
             arreglo[i] = scanner.nextInt();
         }
+
         int suma = 0;
+
         System.out.println("\n--- Contenido del arreglo ---");
+
         for (int i = 0; i < arreglo.length; i++) {
             System.out.println("Posición [" + i + "] = " + arreglo[i]);
             suma += arreglo[i];
@@ -37,3 +41,4 @@ public class ejercicio15 {
         scanner.close();
     }
 }
+```
