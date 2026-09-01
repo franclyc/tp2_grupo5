@@ -2,7 +2,7 @@ package ar.edu.unju.escmi.tp2.ejercicio12;
 
 import java.util.Scanner;
 
-public class ejercicio12 {
+public class Ejercicio12 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -20,10 +20,11 @@ public class ejercicio12 {
             } else {
                 System.out.println("Edad no permitida");
             }
-            
+
             System.out.println("--------------------------------");
         }
 
         scanner.close();
     }
 }
+```
