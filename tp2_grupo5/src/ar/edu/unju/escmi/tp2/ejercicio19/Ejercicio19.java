@@ -29,5 +29,24 @@ public class Ejercicio19 {
                 + texto1.equals(texto3)
         );
 
+        System.out.println("\nRespuestas:");
+
+        System.out.println(
+                "1. texto1 == texto2 devuelve true porque ambos "
+                + "son cadenas literales con el mismo contenido y "
+                + "Java reutiliza el mismo objeto del String Pool."
+        );
+
+        System.out.println(
+                "2. texto1 == texto3 devuelve false porque texto3 "
+                + "fue creado con new String(), creando un objeto "
+                + "diferente. Por eso las referencias no son iguales."
+        );
+
+        System.out.println(
+                "3. equals() compara el contenido de los objetos String. "
+                + "Por eso texto1.equals(texto3) devuelve true, ya que "
+                + "ambos contienen la palabra Hola."
+        );
     }
 }
