@@ -18,11 +18,8 @@ public class Ejercicio2 {
      String nombreApellido5="Leonardo Axel Emir Vargas";
      int documento5=48405991;
         
-     System.out.println(nombreApellido1+" - "+documento1);
-     System.out.println(nombreApellido2+" - "+documento2);
-     System.out.println(nombreApellido3+" - "+documento3);
-     System.out.println(nombreApellido4+" - "+documento4);
-     System.out.println(nombreApellido5+" - "+documento5);
+     System.out.println(nombreApellido1+" - "+documento1+"\n"+nombreApellido2+" - "+documento2+"\n"+nombreApellido3+" - "+documento3+"\n"+nombreApellido4+" - "+documento4+"\n"+nombreApellido5+" - "+documento5);
+     
     }
 }
 
